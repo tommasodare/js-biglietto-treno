@@ -37,13 +37,13 @@ const discount65 = (price - 0.4*price)
 
 if (age <= 18) {
 
-    console.log(discount18);
+    console.log(discount18.toFixed(2));
     
 } else if (age >= 65) {
 
-    console.log(discount65)
+    console.log(discount65.toFixed(2))
 
 } else {
 
-    console.log(price)
+    console.log(price.toFixed(2))
 }
